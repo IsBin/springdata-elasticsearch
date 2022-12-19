@@ -1,0 +1,11 @@
+spring:
+  elasticsearch:
+    rest:
+      # 如果是集群，用逗号隔开
+      uris: http://127.0.0.1:9200
+      #username:
+      #password:
+
+logging:
+  level:
+    com.es: debug
